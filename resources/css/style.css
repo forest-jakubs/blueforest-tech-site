@@ -13,6 +13,14 @@ header {
 	padding-bottom: 20px;
 }
 
+nav:after {
+    content:"";
+    clear:both;
+    display:block;
+    }
+
+
+
 .company-name {
 	float: left;
 	padding-left: 7px;
@@ -27,19 +35,19 @@ header {
 	padding-left: 50px;
 }
 
-.nav {	
+nav {	
 	text-align: left;
 	font-size: 20px;
 	padding-top: 7px;
 	padding-left: 460px;
 }
 
-.nav li {
+nav li {
 	display: inline-block;
 	margin-right: 60px;
 }
 
-.nav li a {
+nav li a {
 	color: lightgray;
 	font-size: 20px;
 }
@@ -53,7 +61,7 @@ main {
 	max-width: 100%;
 	margin: 0 auto;
 	padding-bottom: 850px;
-	background-image: url(https://img.freepik.com/premium-vector/star-sky-space-stars-background-glitter-particles_160081-317.jpg?w=1380);
+	background-image: url(https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
