@@ -1,0 +1,106 @@
+
+html {
+	font-family:'Times New Roman', Times, serif
+}
+
+body {
+	background-color: #000211;
+}
+
+header {
+    color: aliceblue;
+	position: fixed; top: 0; left: 0; z-index: 9999; width: 100%; height: 50px; background-color: #000211;
+	padding-bottom: 20px;
+}
+
+.company-name {
+	float: left;
+	padding-left: 7px;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.logo-img {
+	float: left;	
+	width: 50px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+.nav {	
+	text-align: left;
+	font-size: 20px;
+	padding-top: 7px;
+	padding-left: 460px;
+}
+
+.nav li {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.nav li a {
+	color: lightgray;
+	font-size: 20px;
+}
+
+main {
+	color: aliceblue;
+	text-align: center;	
+}
+
+#banner {
+	max-width: 100%;
+	margin: 0 auto;
+	padding-bottom: 850px;
+	background-image: url(https://img.freepik.com/premium-vector/star-sky-space-stars-background-glitter-particles_160081-317.jpg?w=1380);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#banner h2 {
+color:aliceblue;
+text-align: center;
+padding-top: 59px;
+padding-left: 70px;
+font-size: 56px;
+}
+
+
+#web3 {
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+#web3 p {
+	padding-top: 100px;
+	font-size: 20px;
+	text-align: justify;
+	max-width: 75%;
+	padding-left: 11%;
+	line-height: 1.8;
+}
+
+footer {
+	margin: 0 auto;
+	color:#25BDD6;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:hover {
+	color:#25BDD6;
+}
+
+h2 {
+	padding-top: 100px;
+	color:#25BDD6;
+}
+
+h3 {
+	color: aliceblue;
+}
